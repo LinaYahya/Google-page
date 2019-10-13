@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+ 
+.nav{
+    padding-right: 2%;
+}
+
+.nav li{
+    float: right;
+    padding:5px;
+    list-style-type:none;
+    font-family:arial;
+    font-size:10pt;    color: #474444;
+}
+
+.icon{
+    height: 20px;
+    width: 20px;
+}
+
+img{
+    margin:3% 37.5% 1% 37.5%;
+}
+
+.center{
+    display: block;
+    margin-left:auto;
+    margin-bottom: 11%;
+    width:100%;
+    height:auto;  
+}
+
+.search{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border-radius: 25px;
+    border: 1px solid #e4e4e4 ;
+    height: 36px ; width:38%;
+    margin-bottom: 30px;
+    margin-left: 30%;
+}
+
+.search-box{
+    outline: none;
+    height: 36px ; width:300px;
+    border: 0px solid black ;
+    padding: 0 30px;
+}
+
+#searchicon{
+   width: 25px;
+   padding: 3px;
+}
+
+#micro{
+    padding: 5px;
+    width: 15px;
+}
+
+.search:hover {
+    box-shadow: 5px 5px 5px 5px #c4c0c0;
+}
+
+.bbtn{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left:40%;
+}
+
+button{    
+    margin-right:5px; 
+    height: 35px; 
+    width:125px;
+    border:none;  
+    color: #6f6f6f;
+    background-color: #f2f2f2; 
+}
+
+a{
+    text-decoration:none;
+}
+
+p{
+    font-family:arial;
+    font-size:9pt;
+    text-align: center;
+}
+
+#pal{
+   text-align: left;
+   font-size:11pt;
+   padding-left: 25px;
+   color: #6f6f6f;
+   margin: 0;
+   padding: 15px;
+   border-bottom: solid 1px #e4e4e4;
+   border-top: solid 1px #e4e4e4;
+}
+
+.footer a{
+    color:#757575;
+    padding:5px;
+    font-size:10pt;
+}
+  
+.footer {
+    background:#f2f2f2;
+    font-family:arial;
+    font:#757575;
+    bottom:0;
+    width:100%;
+}
+
+.footer:after {
+    display:block;
+    clear:both;
+    content: "";
+    height:0;
+    overflow:hidden;
+}
+  
+.footer-left{
+    float:left;
+}
+
+.footer-right{
+    float:right;
+}
+  
+
+@media only screen and (max-width:411px){
+
+    body{
+        font-size: 12px;
+
+    }
+    ul{
+        padding-right: 0px;
+    }
+    li{
+        float: right;
+        padding:5px;
+        list-style-type:none;
+        color: #474444;
+        font-size: 12px;
+
+    }
+    img.icon{
+        margin-left: 0px;
+    }
+   .center{
+       margin-left: auto;
+   }
+    img{
+        height: 92px;
+        width: 160px;
+        margin-left: auto;
+    }
+    .search {
+        border: 1px solid #e4e4e4;
+        height: 30px;
+        width: 58%;
+        margin-bottom: 15px;
+        margin-left: 20%;
+    }
+    .search-box{
+    
+        height: 30px ; width:30%;
+        border: 0px solid black ;
+        padding: 0 30px;
+    
+    }
+    #searchicon{
+        width: 21px;
+        height: 20px;
+        margin-left: 0;
+    }
+        
+    #micro{
+            margin-right: 8px;
+            padding: 1px;
+            width: 14px;
+            height: 19px;
+    }
+
+    button{
+        height: 35px; 
+        width:60px;  
+        font-size: 10px;
+      
+    }
+
+    footer ul li {
+        display: inline-block;
+        font-size: 12px;}
+    }
+
+
+@media screen and (max-width: 565px) {
+ 
+    img.icon{
+        margin-left: 0px;
+    }
+   
+    ul{
+        padding-right: 0px;
+    }
+
+    .center{
+        margin-left: auto;
+    }
+
+    img{
+        height: 92px;
+        width: 160px;
+        margin-left:115px;
+    }
+
+    .search {
+        border: 1px solid #e4e4e4;
+        height: 30px;
+        width: 58%;
+        margin-bottom: 15px;
+        margin-left: 20%;
+    }
+
+    .search-box{
+    
+        height: 30px ; width:30%;
+        border: 0px solid black ;
+        padding: 0 30px;
+    
+    }
+
+    #searchicon{
+        width: 21px;
+        height: 20px;
+        margin-left: 0;
+    }
+        
+    #micro{
+        margin-right: 8px;
+        padding: 1px;
+        width: 14px;
+        height: 19px;
+    }
+
+    .bbtn{
+        margin-left: 115px;
+    }
+
+    button{
+        height: 25px; 
+        width:90px;  
+        font-size: 10px;  
+    }
+
+    footer ul li {
+        display: inline-block;
+        font-size: 12px;}
+    }
+   
+
+  @media screen and (max-width: 1025px) {
+ 
+    img.icon{
+        margin-left: 0px;
+    }
+   
+    ul{
+        padding-right: 0px;
+    }
+
+}
